@@ -29,7 +29,7 @@ Verify:
 
     func ExampleVerify() {
         h := hmac.New(func() hash.Hash {
-        return md5.New()
+            return md5.New()
         }, []byte("secret"))
         s := signer.NewBase64Signer(h)
 
