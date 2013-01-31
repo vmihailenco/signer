@@ -5,6 +5,8 @@ There are 2 types of signers:
 - Signer and TimeSigner that use binary encoding.
 - Base64Signer and Base64TimeSigner that use base64 encoding and are compatible with Python's itsdangerous lib.
 
+API docs: http://godoc.org/github.com/vmihailenco/signer
+
 Example
 -------
 
